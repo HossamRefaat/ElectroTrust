@@ -41,11 +41,6 @@ update-database
 ### 4️⃣ Run the Project  
 
 ---
-
-## 📖 Project Structure
-
----
-
 ## 📌 Contribution Guidelines
 
 Want to contribute? Follow these steps:  
