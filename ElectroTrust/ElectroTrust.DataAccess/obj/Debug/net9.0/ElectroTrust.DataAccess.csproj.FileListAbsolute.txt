@@ -1,0 +1,17 @@
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\bin\Debug\net9.0\ElectroTrust.DataAccess.deps.json
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\bin\Debug\net9.0\ElectroTrust.DataAccess.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\bin\Debug\net9.0\ElectroTrust.DataAccess.pdb
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.AssemblyInfoInputs.cache
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.AssemblyInfo.cs
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\refint\ElectroTrust.DataAccess.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.pdb
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ref\ElectroTrust.DataAccess.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\bin\Debug\net9.0\ElectroTrust.DataAccess.runtimeconfig.json
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\bin\Debug\net9.0\ElectroTrust.Entities.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\bin\Debug\net9.0\ElectroTrust.Entities.pdb
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.csproj.AssemblyReference.cache
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroT.32E659C9.Up2Date
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.DataAccess\obj\Debug\net9.0\ElectroTrust.DataAccess.genruntimeconfig.cache

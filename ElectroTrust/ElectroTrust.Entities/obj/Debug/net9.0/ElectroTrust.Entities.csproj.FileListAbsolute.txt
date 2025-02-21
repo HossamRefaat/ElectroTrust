@@ -1,0 +1,12 @@
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.csproj.AssemblyReference.cache
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.AssemblyInfoInputs.cache
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.AssemblyInfo.cs
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.csproj.CoreCompileInputs.cache
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\bin\Debug\net9.0\ElectroTrust.Entities.deps.json
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\bin\Debug\net9.0\ElectroTrust.Entities.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\bin\Debug\net9.0\ElectroTrust.Entities.pdb
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\refint\ElectroTrust.Entities.dll
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ElectroTrust.Entities.pdb
+C:\Users\hossa\source\repos\ElectroTrust\ElectroTrust.Entities\obj\Debug\net9.0\ref\ElectroTrust.Entities.dll
