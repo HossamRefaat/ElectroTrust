@@ -29,19 +29,14 @@
 ## 📂 Installation & Setup
 
 ### 1️⃣ Clone the Repository  
-\`\`\`sh
 git clone https://github.com/your-username/ElectroTrust.git
 cd ElectroTrust
-\`\`\`
 
 ### 2️⃣ Update the Connection String  
 Before running the project, **update the database connection string** in \`appsettings.json\` to match your SQL Server configuration
-\`\`\`sh
 
 ### 3️⃣ Apply Database Migrations  
-\`\`\`sh
 update-database
-\`\`\`
 
 ### 4️⃣ Run the Project  
 
