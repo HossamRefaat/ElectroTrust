@@ -29,7 +29,8 @@
 ## 📂 Installation & Setup
 
 ### 1️⃣ Clone the Repository  
-git clone https://github.com/your-username/ElectroTrust.git
+git clone https://github.com/HossamRefaat/ElectroTrust.git
+
 cd ElectroTrust
 
 ### 2️⃣ Update the Connection String  
