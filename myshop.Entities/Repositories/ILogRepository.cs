@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace myshop.Entities.Repositories
 {
-    public interface IIssueLogRepository : IGenericRepository<Issue>
+    public interface ILogRepository : IGenericRepository<Log>
     {
-        void Update(Issue issue);
     }
 }

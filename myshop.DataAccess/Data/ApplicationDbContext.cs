@@ -18,6 +18,6 @@ namespace myshop.DataAccess
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<OrderHeader> OrderHeaders { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
-        public DbSet<Issue> Issues { get; set; }
+        public DbSet<Log> Logs { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace myshop.Entities.Repositories
         IOrderDetailsRepository OrderDetails { get; }
         IOrderHeaderRepository OrderHeader { get; }
         IApplicationUserRepository ApplicationUser { get; }
-        IIssueLogRepository Issue { get; }
+        ILogRepository Log { get; }
         int Complete();
     }
 }

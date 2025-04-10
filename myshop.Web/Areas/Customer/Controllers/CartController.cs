@@ -28,6 +28,8 @@ namespace myshop.Web.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
+            //throw new Exception("custom!!!");
+
             var claimIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
@@ -111,13 +113,14 @@ namespace myshop.Web.Areas.Customer.Controllers
             }
 
             var domain = "http://elctrotrust.runasp.net";
+            var localDomain = "https://localhost:7086";
             var options = new SessionCreateOptions
             {
                 LineItems = new List<SessionLineItemOptions>(),
 
                 Mode = "payment",
-                SuccessUrl = domain + $"/customer/cart/OrderConfirmation?id={shoppingCartVM.OrderHeader.Id}",
-                CancelUrl = domain + "/customer/cart/index"
+                SuccessUrl = localDomain + $"/customer/cart/OrderConfirmation?id={shoppingCartVM.OrderHeader.Id}",
+                CancelUrl = localDomain + "/customer/cart/index"
             };
 
 

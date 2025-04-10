@@ -12,10 +12,16 @@ namespace myshop.Web.Areas.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<HomeController> logger;
 
-        public HomeController(IUnitOfWork unitOfWork)
+        public HomeController
+            (
+            IUnitOfWork unitOfWork,
+            ILogger<HomeController> logger
+            )
         {
             _unitOfWork = unitOfWork;
+            this.logger = logger;
         }
 
         public IActionResult Index(int? page)

@@ -12,7 +12,6 @@ namespace myshop.DataAccess.Implementation
     {
         private readonly ApplicationDbContext _context;
         public ICategoryRepository Category { get; private set; }
-        public IIssueLogRepository Issue { get; private set; }
         public IProductRepository Product { get; private set; }
 
         public IShoppingCartRepository ShoppingCart { get; private set; }
@@ -23,16 +22,18 @@ namespace myshop.DataAccess.Implementation
 
         public IApplicationUserRepository ApplicationUser { get; private set; }
 
+        public ILogRepository Log { get; private set; }
+
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             Category = new CategoryRepository(context);
-            Issue = new IssueRepository(context);
             Product = new ProductRepository(context);
             ShoppingCart = new ShoppingCartRepository(context);
             OrderDetails = new OrderDetailsRepository(context);
             OrderHeader = new OrderHeaderRepository(context);
             ApplicationUser = new ApplicationUserRepository(context);
+            Log = new LogRepository(context);
         }
 
         public int Complete()

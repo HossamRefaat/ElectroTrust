@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.HideHeader = true;
+
+    ViewData["Title"] = "Error";
+    var errorId = ViewData["ErrorId"];
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 100px;
+            background-color: #f4f4f4;
+        }
+
+        .error-box {
+            display: inline-block;
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #e74c3c;
+        }
+
+        .error-id {
+            font-family: monospace;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-box">
+        <h1>😢 Something went wrong</h1>
+        <p>An unexpected error occurred.</p>
+        <p class="error-id">Error ID: <strong>@errorId</strong></p>
+    </div>
+</body>
+</html>
