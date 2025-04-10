@@ -1,6 +1,6 @@
-# **myshop - eCommerce Web Application**
+# **ElectroTrust - eCommerce Web Application**
 
-**myshop** is a scalable **ASP.NET Core MVC** eCommerce application using **Entity Framework Core** with **N-Tier Architecture**, **Repository Pattern**, and **Unit of Work** for maintainability and efficiency.
+**ElectroTrust** is a scalable **ASP.NET Core MVC** eCommerce application using **Entity Framework Core** with **N-Tier Architecture**, **Repository Pattern**, and **Unit of Work** for maintainability and efficiency.
 
 ## **Features**
 - 🛒 **Product & Category Management**  
@@ -18,7 +18,7 @@
 ## **Getting Started**
 ### **1. Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/myshop.git
+git clone https://github.com/HossamRefaat/myshop.git
 cd myshop
 ```
 
