@@ -1,4 +1,5 @@
-﻿using myshop.Entities.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using myshop.Entities.Models;
 using myshop.Entities.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,10 +18,21 @@ namespace myshop.DataAccess.Implementation
             _context = context;
         }
 
+        public IEnumerable<OrderDetails> GetAllByOrderHeaderId(int orderId)
+        {
+            var orderDetails = _context.OrderDetails
+                .Include(o => o.Product)
+                .Where(o => o.OrderHeaderId == orderId)
+                .ToList();
+
+            return orderDetails;
+        }
+
         public void Update(OrderDetails orderDetails)
         {
             _context.OrderDetails.Update(orderDetails);
         }
 
+       
     }
 }

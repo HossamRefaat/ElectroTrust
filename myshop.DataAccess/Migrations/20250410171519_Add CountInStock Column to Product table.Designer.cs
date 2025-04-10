@@ -12,8 +12,8 @@ using myshop.DataAccess;
 namespace myshop.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250408182934_addDataAnnotation")]
-    partial class addDataAnnotation
+    [Migration("20250410171519_Add CountInStock Column to Product table")]
+    partial class AddCountInStockColumntoProducttable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -264,6 +264,27 @@ namespace myshop.DataAccess.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("myshop.Entities.Models.Log", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Exception")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("TimeStamp")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logs");
+                });
+
             modelBuilder.Entity("myshop.Entities.Models.OrderDetails", b =>
                 {
                     b.Property<int>("Id")
@@ -376,6 +397,9 @@ namespace myshop.DataAccess.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CountInStock")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")

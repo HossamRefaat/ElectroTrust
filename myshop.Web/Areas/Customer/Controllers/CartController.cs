@@ -41,6 +41,7 @@ namespace myshop.Web.Areas.Customer.Controllers
 
             foreach(var item in ShoppingCartVM.CartsList)
             {
+                item.Count = Math.Min(item.Count, item.Product.CountInStock);
                 ShoppingCartVM.TotalCarts += (item.Count * item.Product.Price);
             }
 
@@ -162,6 +163,13 @@ namespace myshop.Web.Areas.Customer.Controllers
             {
                 _unitOfWork.OrderHeader.UpdateOrderStatus(id, SD.Approve, SD.Approve);
                 orderHeader.PaymentIntendId = session.PaymentIntentId;
+
+                var orders = _unitOfWork.OrderDetails.GetAllByOrderHeaderId(id);
+                foreach (var order in orders)
+                {
+                    order.Product.CountInStock -= order.Count;
+                }
+
                 _unitOfWork.Complete();
             }
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
@@ -173,9 +181,12 @@ namespace myshop.Web.Areas.Customer.Controllers
 
         public IActionResult Plus(int cartid)
         {
-            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartid);
-            _unitOfWork.ShoppingCart.IncreaseCount(cart, 1);
-            _unitOfWork.Complete();
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartid, IncludeWord: "Product");
+            if(cart.Product.CountInStock > cart.Count)
+            {
+                _unitOfWork.ShoppingCart.IncreaseCount(cart, 1);
+                _unitOfWork.Complete();
+            }
             return RedirectToAction("Index");
         }
 

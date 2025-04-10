@@ -1,5 +1,15 @@
 ﻿@model ShoppingCartVM
+@{
+	bool flag = true;
+}
 
+<style>
+	.disabled {
+		pointer-events: none;
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+</style>
 
 <form method="post">
 	<br />
@@ -26,6 +36,7 @@
 				{
 					@foreach (var item in Model.CartsList)
 					{
+						if (item.Count <= 0) flag = false;
 						<div class="row">
 							<div class="d-none d-lg-block col-lg-1 text-center py-2">
 								<img src="~/@item.Product.Img" class="rounded" width="100%" />
@@ -84,7 +95,7 @@
 					<div class="card-footer row">
 
 						<div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
-							<a asp-action="Summary" class="btn btn-primary form-control">Summary</a>
+							<a asp-action="Summary" class="btn btn-primary form-control @(!flag ? "disabled" : "")">Summary</a>
 						</div>
 
 					</div>

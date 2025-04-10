@@ -62,7 +62,8 @@ namespace myshop.Web.Areas.Customer.Controllers
             shoppingCart.ApplicationUserId = claim.Value;
 
             ShoppingCart CartObj = _unitOfWork.ShoppingCart.GetFirstOrDefault(
-                 u => u.ApplicationUserId == claim.Value && u.ProductId == shoppingCart.ProductId
+                 u => u.ApplicationUserId == claim.Value && u.ProductId == shoppingCart.ProductId,
+                 IncludeWord : "Product"
             );
 
             if (CartObj == null) 
@@ -72,14 +73,15 @@ namespace myshop.Web.Areas.Customer.Controllers
                 HttpContext.Session.SetInt32(SD.SessionKey,
                     _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value).Count()
                 );
-
             }
                 
             else
             {
-                _unitOfWork.ShoppingCart.IncreaseCount(CartObj, shoppingCart.Count);
-                _unitOfWork.Complete();
-
+                if(CartObj.Count < CartObj.Product.CountInStock)
+                {
+                    _unitOfWork.ShoppingCart.IncreaseCount(CartObj, shoppingCart.Count);
+                    _unitOfWork.Complete();
+                }
             }
 
             return RedirectToAction("Index");

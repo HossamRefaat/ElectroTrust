@@ -33,6 +33,11 @@ namespace myshop.Entities.Models
         [DisplayName("Category")]
         public int CategoryId { get; set; }
 
+        [Required]
+        [DisplayName("Count")]
+        [Range(0, 1000)]
+        public int CountInStock { get; set; }
+
         [ValidateNever]
         public Category Category { get; set; }
     }

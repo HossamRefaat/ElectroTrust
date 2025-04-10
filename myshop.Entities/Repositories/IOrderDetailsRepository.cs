@@ -10,6 +10,6 @@ namespace myshop.Entities.Repositories
     public interface IOrderDetailsRepository : IGenericRepository<OrderDetails>
     {
         void Update(OrderDetails orderDetails);
-
+        IEnumerable<OrderDetails> GetAllByOrderHeaderId(int orderId);
     }
 }

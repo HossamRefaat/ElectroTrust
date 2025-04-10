@@ -27,6 +27,7 @@ namespace myshop.DataAccess.Implementation
                 ProductInDb.Price = product.Price;
                 ProductInDb.Img = product.Img;
                 ProductInDb.CategoryId = product.CategoryId;
+                ProductInDb.CountInStock = product.CountInStock;
             }
         }
     }
