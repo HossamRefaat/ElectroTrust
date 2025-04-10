@@ -1,0 +1,42 @@
+﻿@model Category
+
+@{
+    ViewBag.PageTitle = "Category Mangment";
+    ViewBag.CardTitle = "Edit Category";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<br />
+<form method="post">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/ue3uv88j8x69mwx77d988270lq42v8pg1k3z66t800j6fwb8/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <input hidden asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description"></label>
+        <textarea id="mytextarea" asp-for="Description" class="form-control"> </textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-success">Save</button>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to list</a>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        tinymce.init({
+          selector: '#mytextarea'
+        });
+    </script>
+}
