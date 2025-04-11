@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Web\\myshop.Web.csproj": {}
+    "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Web\\myshop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.DataAccess\\myshop.DataAccess.csproj": {
+    "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.DataAccess\\myshop.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj",
         "projectName": "myshop.DataAccess",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.DataAccess\\myshop.DataAccess.csproj",
+        "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj": {
-                "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj"
+              "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
+                "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj": {
+    "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj",
         "projectName": "myshop.Entities",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj",
+        "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Web\\myshop.Web.csproj": {
+    "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Web\\myshop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Web\\myshop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
         "projectName": "myshop.Web",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Web\\myshop.Web.csproj",
+        "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Web\\obj\\publish\\win-x86\\",
+        "outputPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Web\\obj\\publish\\win-x86\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -213,14 +213,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.DataAccess\\myshop.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.DataAccess\\myshop.DataAccess.csproj"
+              "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj"
               },
-              "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj": {
-                "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\myshop.Entities\\myshop.Entities.csproj"
+              "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
+                "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj"
               },
-              "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\Utilities\\Utilities.csproj"
+              "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -271,6 +271,26 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
             "Stripe.net": {
               "target": "Package",
               "version": "[47.4.0, )"
@@ -304,14 +324,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\myShop-Website\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Source\\Repos\\ElectroTrust\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

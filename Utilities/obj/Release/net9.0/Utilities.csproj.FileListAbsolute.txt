@@ -11,3 +11,16 @@ C:\Users\hp\Source\Repos\myShop-Website\Utilities\obj\Release\net9.0\Utilities.d
 C:\Users\hp\Source\Repos\myShop-Website\Utilities\obj\Release\net9.0\refint\Utilities.dll
 C:\Users\hp\Source\Repos\myShop-Website\Utilities\obj\Release\net9.0\Utilities.pdb
 C:\Users\hp\Source\Repos\myShop-Website\Utilities\obj\Release\net9.0\ref\Utilities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\bin\Release\net9.0\Utilities.deps.json
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\bin\Release\net9.0\Utilities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\bin\Release\net9.0\Utilities.pdb
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.AssemblyInfo.cs
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.sourcelink.json
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\refint\Utilities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\Utilities.pdb
+C:\Users\hp\Source\Repos\ElectroTrust\Utilities\obj\Release\net9.0\ref\Utilities.dll

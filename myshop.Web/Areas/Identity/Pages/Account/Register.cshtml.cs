@@ -147,7 +147,7 @@ namespace myshop.Web.Areas.Identity.Pages.Account
 
                     if (String.IsNullOrEmpty(role))
                     {
-                        await _userManager.AddToRoleAsync(user, SD.CustomerRole);
+                        await _userManager.AddToRoleAsync(user, SD.AdminRole);
 
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return LocalRedirect(returnUrl);

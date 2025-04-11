@@ -11,3 +11,16 @@ C:\Users\hp\Source\Repos\myShop-Website\myshop.Entities\obj\Release\net9.0\mysho
 C:\Users\hp\Source\Repos\myShop-Website\myshop.Entities\obj\Release\net9.0\refint\myshop.Entities.dll
 C:\Users\hp\Source\Repos\myShop-Website\myshop.Entities\obj\Release\net9.0\myshop.Entities.pdb
 C:\Users\hp\Source\Repos\myShop-Website\myshop.Entities\obj\Release\net9.0\ref\myshop.Entities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\bin\Release\net9.0\myshop.Entities.deps.json
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\bin\Release\net9.0\myshop.Entities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\bin\Release\net9.0\myshop.Entities.pdb
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.csproj.AssemblyReference.cache
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.AssemblyInfoInputs.cache
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.AssemblyInfo.cs
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.sourcelink.json
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\refint\myshop.Entities.dll
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\myshop.Entities.pdb
+C:\Users\hp\Source\Repos\ElectroTrust\myshop.Entities\obj\Release\net9.0\ref\myshop.Entities.dll
