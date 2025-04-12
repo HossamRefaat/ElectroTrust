@@ -5,75 +5,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>myShop</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroTrust</title>
+
+    <style>
+        .navbar-brand-text {
+        color: #0d6efd; /* Bootstrap primary blue */
+        font-weight: bold;
+        font-size: 1.5rem; /* Adjust size as needed */
+        text-decoration: none;
+        }
+
+        .header-container {
+        padding-top: 1rem; /* Adjust padding as needed */
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #dee2e6; /* Add a light border below header */
+        }
+
+        .user-greeting {
+        /* Style for the 'Hello user...' text */
+        color: #212529; /* Default text color */
+        text-decoration:none
+        }
+
+        .cart-badge {
+        /* Style for the cart count badge */
+        position: relative;
+        top: -2px; /* Fine-tune position */
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="~/customer/css/styles.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!--Font awesome!-->
+    <script src="https://kit.fontawesome.com/f4e855eb8f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container px-4 px-lg-5">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Customer/Home/Index">Home</a></li>
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        if (User.IsInRole(SD.AdminRole))
-                        {
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Admin/Dashboard/Index">Dashboard</a></li>
+    <div class="container header-container">
 
-                        }
-                        else
+        <div class="input-group d-flex justify-content-between">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand-text me-4" href="/Customer/Home/Index">ElectroTrust</a> 
+                    @if (User.Identity.IsAuthenticated && User.IsInRole(SD.AdminRole))
+                    {
+                        <a href="/Admin/Dashboard/Index" class="btn btn-outline-secondary">
+                            <i class="fas fa-tachometer-alt me-1"></i> Dashboard
+                        </a>
+                    }
+                </div>
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    
+                        @if (User.Identity.IsAuthenticated && User.IsInRole(SD.CustomerRole))
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="#!">My Orders</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
                                     <li><a class="dropdown-item" href="/Identity/Account/Manage">Edit Profile</a></li>
                                 </ul>
                             </li>
                         }
-                    }
+                    
                 </ul>
+            </div>
+            
+            <div class="ms-md-5 mt-2 mt-md-0">
                 <partial name="_LoginPartial" />
-                <form class="d-flex">
-                    <a href="/Customer/Cart/Index" class="btn btn-outline-dark">
-                        <i class="bi-cart-fill me-1"></i>
-                        Cart
-                        @await Component.InvokeAsync("ShoppingCart")
-                    </a>
-                </form>
+                <a href="/Customer/Cart/Index" class="btn btn-outline-primary fw-500 rounded ">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+                    @await Component.InvokeAsync("ShoppingCart")
+                </a>
             </div>
+
+
         </div>
-    </nav>
-    <!-- Header-->
-    <header class="bg-dark py-5">
-        <div class="container px-4 px-lg-5 my-5">
-            <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">Welcome to myShop</h1>
-                <p class="lead fw-normal text-white-50 mb-0">You can find amazing products with good prices.</p>
-            </div>
-        </div>
-    </header>
+
+    </div> <!--Container div!-->
     <!-- Section-->
-    @RenderBody();
+    @RenderBody()
     <!-- Footer-->
-    <footer class="py-5 bg-dark">
-        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
+    <div class="py-3 bg-primary">
+        <div class="container">
+
+            <div class="row d-flex">
+                <p class="mt-4 text-center text-white">
+                    © 2025<br>
+                    All rights reserved.
+                </p>
+            </div><!--row div-->
+
+        </div>
+    </div>
     <script src="~/customer/js/scripts.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

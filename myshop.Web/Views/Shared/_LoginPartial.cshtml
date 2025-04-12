@@ -1,28 +1,36 @@
 ﻿@using Microsoft.AspNetCore.Identity
-
-
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
-<ul class="navbar-nav">
+
+
+
 @if (SignInManager.IsSignedIn(User))
 {
-    <li class="nav-item">
-        <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
-    </li>
-    <li class="nav-item">
-        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
-        </form>
-    </li>
+
+    <a class="user-greeting id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+        <span class="user-greeting me-3">
+            Hello @UserManager.GetUserName(User)!
+        </span>
+        
+    </a>
+
+    <form class="btn btn-outline-dark" id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="nav-link">
+                <i class="fa fa-sign-out"></i>
+                Logout
+            </button>
+        
+    </form>
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+    <a class="btn btn-outline-primary fw-500 rounded " id="register" asp-area="Identity" asp-page="/Account/Register">
+        <i class="fa fa-user-plus me-lg-2"></i>
+        <p class="d-none d-lg-inline">Sign Up</p>
+    </a>
+    <a class="btn btn-outline-primary fw-500 rounded " id="login" asp-area="Identity" asp-page="/Account/Login">
+        <i class="fa fa-sign-in me-lg-2"></i>
+        <p class="d-none d-lg-inline">Sign In</p>
+    </a>
 }
-</ul>

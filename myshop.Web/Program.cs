@@ -58,7 +58,7 @@ namespace myshop.Entities
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection")
+                    builder.Configuration.GetConnectionString("ApplicationDbContextConnection")
                 ));
             builder.Services.Configure<StripeData>(builder.Configuration.GetSection("stripe"));
 

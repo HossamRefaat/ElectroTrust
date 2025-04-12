@@ -114,7 +114,7 @@ namespace myshop.Web.Areas.Customer.Controllers
             }
 
             var domain = "http://elctrotrust.runasp.net";
-            var localDomain = "https://localhost:7086";
+            var localDomain = "https://localhost:44374";
             var options = new SessionCreateOptions
             {
                 LineItems = new List<SessionLineItemOptions>(),
