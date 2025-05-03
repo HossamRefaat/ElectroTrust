@@ -4008,7 +4008,6 @@ C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\n
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\00l340hnmn-mb33zfptxh.gz
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\gnax3sk2x5-xtk6lyw272.gz
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\4i5y66qkxl-ymjiesd2kl.gz
-C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\lp2wx480du-c2tiyv64ts.gz
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\iooy7ze52x-ef9indsk5l.gz
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\c8w6i1wjpj-devepoo3hg.gz
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\yfcnsy8ss5-viw7ux9ivp.gz
@@ -4135,3 +4134,4 @@ C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\n
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\myshop.Web.genruntimeconfig.cache
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\ref\myshop.Web.dll
 C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\jxdjk7y4kx-8fybjc7vmh.gz
+C:\Users\hossa\OneDrive\Desktop\ElectroTrust\ElectroTrust\myshop.Web\obj\Debug\net9.0\compressed\lp2wx480du-rn4ammvbvf.gz

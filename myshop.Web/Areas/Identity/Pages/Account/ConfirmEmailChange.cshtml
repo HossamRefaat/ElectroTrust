@@ -1,8 +1,68 @@
 ﻿@page
-@model ConfirmEmailChangeModel
+@model ConfirmEmailChangeModel // Make sure this matches your PageModel class name
 @{
-    ViewData["Title"] = "Confirm email change";
+    ViewData["Title"] = "Confirm Email Change";
+    // Optional: Set layout if needed
+    // Layout = "/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>@ViewData["Title"]</h1>
-<partial name="_StatusMessage" model="Model.StatusMessage" />
+@* Container to center the card vertically and horizontally *@
+<div class="container d-flex align-items-center justify-content-center" style="min-height: 70vh; margin-bottom: 5vh">
+
+    <div class="card shadow-sm text-center" style="max-width: 500px; width: 100%;">
+        @* Card styling *@
+        <div class="card-body p-4 p-md-5">
+
+            @* Determine Icon & Title based on success/error in StatusMessage *@
+            @{
+                bool isError = Model.StatusMessage?.Contains("Error", StringComparison.OrdinalIgnoreCase) ?? false;
+            }
+
+            <div class="mb-3">
+                @if (isError)
+                {
+                    <i class="fas fa-times-circle fa-3x text-danger"></i> @* Error Icon *@
+                }
+                else
+                {
+                    <i class="fas fa-check-circle fa-3x text-success"></i> @* Success Icon *@
+                }
+            </div>
+
+            <h1 class="card-title h3 fw-bold mb-3">@(isError ? "Email Change Failed" : "Email Change Confirmed")</h1>
+
+            @* Display the detailed Status Message from the PageModel *@
+            <partial name="_StatusMessage" model="Model.StatusMessage" />
+
+            <hr class="my-4">
+
+            @* Provide next step link *@
+            @if (!isError)
+            {
+                <p class="card-text text-muted">Your email address has been successfully updated.</p>
+                <div class="d-grid gap-2 mt-4">
+                    @* Link back to the main account management page or profile *@
+                    <a asp-area="Identity" asp-page="/Account/Manage/Index" class="btn btn-primary fw-bold">Return to Your Account</a>
+                </div>
+            }
+            else
+            {
+                <p class="card-text text-muted">There was an issue finalizing your email change. Please try initiating the change again or contact support.</p>
+                <div class="d-grid gap-2 mt-4">
+                    @* Link back to the page where they manage their email *@
+                    <a asp-area="Identity" asp-page="/Account/Manage/Email" class="btn btn-secondary">Return to Email Settings</a>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+@* Usually no scripts needed here *@
+}
+
+@* Optional: Add specific styles if needed *@
+<style>
+    /* Add any specific CSS for the confirm email change page here if necessary */
+</style>

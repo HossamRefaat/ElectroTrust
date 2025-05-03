@@ -5,20 +5,50 @@
     ViewData["ActivePage"] = ManageNavPages.PersonalData;
 }
 
-<h3>@ViewData["Title"]</h3>
+@* Optional: Define a container style or reuse one if defined globally *@
+<style>
+    .personal-data-container {
+        max-width: 700px; /* Adjust width as needed for text content */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: auto; /* Center the container */
+        margin-right: auto; /* Center the container */
+    }
+    /* Optional: Add some space between the buttons */
+    .personal-data-actions form,
+    .personal-data-actions .delete-link {
+        margin-bottom: 1rem; /* Adds space below the download form and the delete link paragraph */
+    }
 
-<div class="row">
-    <div class="col-md-6">
-        <p>Your account contains personal data that you have given us. This page allows you to download or delete that data.</p>
-        <p>
-            <strong>Deleting this data will permanently remove your account, and this cannot be recovered.</strong>
-        </p>
-        <form id="download-data" asp-page="DownloadPersonalData" method="post">
-            <button class="btn btn-primary" type="submit">Download</button>
-        </form>
-        <p>
-            <a id="delete" asp-page="DeletePersonalData" class="btn btn-danger">Delete</a>
-        </p>
+</style>
+
+<div class="personal-data-container">
+    <div class="card shadow-sm">
+        <div class="card-body p-4 p-md-5">
+            <h3 class="card-title text-center mb-4 fw-bold">@ViewData["Title"]</h3>
+
+            <p>Your account contains personal data that you have given us. This page allows you to download or delete that data.</p>
+            <p>
+                <strong class="text-danger">Deleting this data will permanently remove your account, and this cannot be recovered.</strong>
+            </p>
+
+            <hr class="my-4"> @* Optional: Add a visual separator *@
+
+            <div class="personal-data-actions mt-4">
+                @* Container for actions *@
+                <p>Click the button below to download your data.</p>
+                <form id="download-data" asp-page="DownloadPersonalData" method="post">
+                    @* You can make the button wider if desired: class="btn btn-primary w-100" or keep it standard size *@
+                    <button class="btn btn-primary" type="submit">Download Data</button>
+                </form>
+
+                <p class="delete-link">Alternatively, you can delete your account and all associated personal data.</p>
+                <p class="delete-link">
+                    @* You can make the button wider if desired: class="btn btn-danger w-100" or keep it standard size *@
+                    <a id="delete" asp-page="DeletePersonalData" class="btn btn-danger">Delete Account</a>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 

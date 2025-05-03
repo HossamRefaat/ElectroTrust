@@ -1,16 +1,102 @@
-﻿@using myshop.Entities.Models;
+﻿@using myshop.Entities.Models
 @inject SignInManager<ApplicationUser> SignInManager
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 }
-<ul class="nav nav-pills flex-column">
-    <li class="nav-item"><a class="nav-link @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">Profile</a></li>
-    <li class="nav-item"><a class="nav-link @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">Email</a></li>
-    <li class="nav-item"><a class="nav-link @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">Password</a></li>
-    @if (hasExternalLogins)
-    {
-        <li id="external-logins" class="nav-item"><a id="external-login" class="nav-link @ManageNavPages.ExternalLoginsNavClass(ViewContext)" asp-page="./ExternalLogins">External logins</a></li>
+
+@*
+This partial view renders the vertical navigation for the account management pages
+with custom styling defined in the <style> block below.
+Place this in a layout file (like _ManageLayout.cshtml or _Layout.cshtml)
+typically within a sidebar column (e.g., col-md-3 or col-lg-2).
+*@
+
+<div class="manage-nav-styled-container">
+    <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+            @* No margin needed if links handle spacing/borders *@
+            <a class="nav-link @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">
+                <i class="fas fa-user fa-fw me-2"></i>Profile
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">
+                <i class="fas fa-envelope fa-fw me-2"></i>Email
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">
+                <i class="fas fa-key fa-fw me-2"></i>Password
+            </a>
+        </li>
+        @if (hasExternalLogins)
+        {
+            <li id="external-logins" class="nav-item">
+                <a id="external-login" class="nav-link @ManageNavPages.ExternalLoginsNavClass(ViewContext)" asp-page="./ExternalLogins">
+                    <i class="fas fa-sign-in-alt fa-fw me-2"></i>External logins
+                </a>
+            </li>
+        }
+        @* Uncomment this if you implement Two-Factor Authentication
+        <li class="nav-item">
+             <a class="nav-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">
+                 <i class="fas fa-mobile-alt fa-fw me-2"></i>Two-factor authentication
+            </a>
+        </li>
+        *@
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">
+                <i class="fas fa-database fa-fw me-2"></i>Personal data
+            </a>
+        </li>
+    </ul>
+</div>
+
+@* Add custom styles for the navigation menu *@
+<style>
+    .manage-nav-styled-container {
+        /* Create a subtle container for the nav */
+        border: 1px solid #dee2e6; /* Light border */
+        border-radius: 0.375rem; /* Standard Bootstrap border-radius */
+        background-color: #ffffff; /* White background, could be #f8f9fa for light grey */
+        /* padding: 0.5rem 0; */ /* Remove padding if links handle it edge-to-edge */
+        overflow: hidden; /* Ensure link borders don't spill outside container radius */
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Optional: subtle shadow */
     }
-    <li class="nav-item"><a class="nav-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">Two-factor authentication</a></li>
-    <li class="nav-item"><a class="nav-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">Personal data</a></li>
-</ul>
+
+        .manage-nav-styled-container .nav-pills .nav-link {
+            /* Base link style */
+            background-color: transparent;
+            border: none;
+            border-radius: 0; /* Links are square within the container */
+            color: #212529; /* Default dark text color */
+            padding: 0.8rem 1.25rem; /* Adjust padding for comfortable spacing */
+            margin-bottom: 0;
+            border-left: 5px solid transparent; /* Make space for the active indicator */
+            transition: background-color 0.2s ease-in-out, border-left-color 0.2s ease-in-out;
+            font-weight: 500; /* Slightly bolder than default */
+            width: 100%; /* Ensure link takes full width */
+        }
+
+            .manage-nav-styled-container .nav-pills .nav-link:hover:not(.active) {
+                /* Hover effect for non-active items */
+                background-color: #e9ecef; /* Light grey hover */
+                border-left-color: #adb5bd; /* Grey indicator bar on hover */
+                color: #000;
+            }
+
+            .manage-nav-styled-container .nav-pills .nav-link.active {
+                /* Style for the active link - Using Bootstrap's primary color */
+                background-color: #e7f1ff; /* Light primary background (e.g., light blue) */
+                color: #0d6efd; /* Primary text color (e.g., blue) */
+                font-weight: 600; /* Bolder text */
+                border-left-color: #0d6efd; /* Primary color border accent */
+            }
+
+        /* Ensure icons have consistent width and vertical alignment */
+        .manage-nav-styled-container .nav-link i.fa-fw {
+            width: 1.3em; /* Fixed width for icon alignment */
+            text-align: center;
+            vertical-align: text-bottom; /* Align icon nicely with text */
+        }
+</style>

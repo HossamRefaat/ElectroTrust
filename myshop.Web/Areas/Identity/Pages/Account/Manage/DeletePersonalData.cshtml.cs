@@ -46,7 +46,7 @@ namespace myshop.Web.Areas.Identity.Pages.Account.Manage
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Required]
+            [Required(ErrorMessage = "Password field is required")]
             [DataType(DataType.Password)]
             public string Password { get; set; }
         }
@@ -71,6 +71,10 @@ namespace myshop.Web.Areas.Identity.Pages.Account.Manage
 
         public async Task<IActionResult> OnPostAsync()
         {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {

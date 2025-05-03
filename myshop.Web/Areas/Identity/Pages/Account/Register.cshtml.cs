@@ -13,12 +13,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using myshop.Entities.Models;
+using myshop.Entities.Repositories;
 using Utilities;
 
 namespace myshop.Web.Areas.Identity.Pages.Account
@@ -125,17 +125,21 @@ namespace myshop.Web.Areas.Identity.Pages.Account
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
-            ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            // ExternalLogins population removed for brevity unless needed for the view on redisplay
+            // ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
             if (ModelState.IsValid)
             {
-                var user = CreateUser();
+                var user = CreateUser(); // Ensure CreateUser() returns your ApplicationUser type
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
+                // Assign custom properties from Input model
                 user.Name = Input.Name;
                 user.Address = Input.Address;
                 user.City = Input.City;
+                // Ensure your Input model has properties: Email, Password, Name, Address, City
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
@@ -143,22 +147,24 @@ namespace myshop.Web.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    string role = HttpContext.Request.Form["RoleRadio"].ToString();
-
-                    if (String.IsNullOrEmpty(role))
+                    // --- Role Assignment ---
+                    string role = HttpContext.Request.Form["RoleRadio"].ToString(); // Ensure RoleRadio exists in your form
+                    if (string.IsNullOrEmpty(role))
                     {
-                        await _userManager.AddToRoleAsync(user, SD.AdminRole);
-
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        // Default role if none selected (Ensure SD.CustomerRole is defined)
+                        await _userManager.AddToRoleAsync(user, SD.CustomerRole);
+                        _logger.LogInformation($"User {user.UserName} assigned to default role {SD.CustomerRole}.");
                     }
                     else
                     {
+                        // Assign selected role (Ensure role exists)
                         await _userManager.AddToRoleAsync(user, role);
+                        _logger.LogInformation($"User {user.UserName} assigned to selected role {role}.");
                     }
-                    return RedirectToAction("Index", "Users", new {area = "Admin"});
+                    // --- End Role Assignment ---
 
 
+                    // --- Email Confirmation ---
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
@@ -170,26 +176,46 @@ namespace myshop.Web.Areas.Identity.Pages.Account
 
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    _logger.LogInformation($"Confirmation email sent to {user.Email}. Callback: {callbackUrl}");
+                    // --- End Email Confirmation ---
 
-                    if (_userManager.Options.SignIn.RequireConfirmedAccount)
-                    {
-                        return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
-                    }
-                    else
-                    {
 
-                    }
+                    // --- REDIRECTION ---
+                    // Instead of redirecting to RegisterConfirmation or logging in,
+                    // redirect to the Login page.
+
+                    // Optional: Add a message to display on the Login page (using TempData)
+                    TempData["StatusMessage"] = "Registration successful. Please check your email to confirm your account before logging in.";
+
+                    // Redirect to the Login page within the Identity area
+                    return RedirectToPage("/Account/Login", new { area = "Identity", returnUrl = returnUrl }); // Pass returnUrl if needed after login
+
+                    // ----- Remove or comment out the original redirection logic -----
+                    // if (_userManager.Options.SignIn.RequireConfirmedAccount)
+                    // {
+                    //     return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+                    // }
+                    // else
+                    // {
+                    //     // await _signInManager.SignInAsync(user, isPersistent: false); // Original auto-login
+                    //     // return LocalRedirect(returnUrl);
+                    // }
+                    // ----- End of removed logic -----
                 }
+
+                // If creation failed, add errors to ModelState
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
 
-            // If we got this far, something failed, redisplay form
+            // If we got this far, something failed (ModelState invalid or user creation failed),
+            // redisplay form with validation errors
+            // Repopulate ExternalLogins if your view needs them on redisplay
+            ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             return Page();
         }
-
         private ApplicationUser CreateUser()
         {
             try

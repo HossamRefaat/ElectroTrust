@@ -4,7 +4,6 @@ using myshop.DataAccess.Implementation;
 using myshop.Entities.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Utilities;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Stripe;
 using myshop.Entities.Models;
 using Microsoft.AspNetCore.Diagnostics;
@@ -63,13 +62,17 @@ namespace myshop.Entities
             builder.Services.Configure<StripeData>(builder.Configuration.GetSection("stripe"));
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
-                 options => options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(4))
+                 options => {
+                     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(4);
+                     options.SignIn.RequireConfirmedAccount = true;
+
+                 })
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders()
                 .AddDefaultUI();
 
 
-            builder.Services.AddSingleton<IEmailSender, EmailSender>();
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
 
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

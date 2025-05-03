@@ -2,32 +2,74 @@
 @model DeletePersonalDataModel
 @{
     ViewData["Title"] = "Delete Personal Data";
-    ViewData["ActivePage"] = ManageNavPages.PersonalData;
+    ViewData["ActivePage"] = ManageNavPages.PersonalData; // Sets the active link in _ManageNav
 }
 
-<h3>@ViewData["Title"]</h3>
+@* The main title is usually handled by the _ManageLayout or main layout *@
+@* Removed the <h3>@ViewData["Title"]</h3> from here *@
 
-<div class="alert alert-warning" role="alert">
-    <p>
-        <strong>Deleting this data will permanently remove your account, and this cannot be recovered.</strong>
-    </p>
+@* Enhance the warning alert for maximum visibility *@
+<div class="alert alert-danger d-flex align-items-center border-danger" role="alert">
+    <i class="fas fa-exclamation-triangle fa-2x me-3 text-danger"></i> @* Warning Icon - Font Awesome needed *@
+    <div>
+        <h4 class="alert-heading fw-bold">Irreversible Action!</h4>
+        <p class="mb-0"><strong>Deleting this data will permanently remove your account, including all associated information. This action cannot be undone.</strong></p>
+    </div>
 </div>
 
-<div>
-    <form id="delete-user" method="post">
-        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+<div class="mt-4" style="margin-bottom: 12vh">
+    @* Add margin above the form section *@
+    <p>To permanently delete your account and all personal data associated with it, please confirm your action below. If required, you will need to enter your current password.</p>
+
+    <form id="delete-user" method="post" class="mt-3">
+        @* Display general validation errors *@
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+        @* Conditionally display password input if required by configuration *@
         @if (Model.RequirePassword)
         {
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Please enter your password." />
-                <label asp-for="Input.Password" class="form-label"></label>
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            <div class="mb-3">
+                <label asp-for="Input.Password" class="form-label fw-bold"></label>
+                <input asp-for="Input.Password" asp-validation-for= "Input.Password"
+                       type="password"
+                       class="form-control"
+                       autocomplete="current-password"
+                       aria-required="true" @* Good for accessibility *@
+                       placeholder="Enter password to confirm deletion"
+                       required /> @* <-- ADD THIS ATTRIBUTE *@
+                <span asp-validation-for="Input.Password" class="text-danger d-block mt-1"></span>
+                <div id="passwordHelp" class="form-text">Enter your current password to confirm deletion.</div>
             </div>
         }
-        <button class="w-100 btn btn-lg btn-danger" type="submit">Delete data and close my account</button>
+
+
+        @* Submit Button - Prominent Danger Style *@
+        <div class="d-grid gap-2 mt-4">
+            @* Use d-grid for full-width button within this column *@
+            <button class="btn btn-danger btn-lg fw-bold" type="submit">
+                <i class="fas fa-trash-alt me-2"></i> @* Optional delete icon *@
+                Delete All My Data and Close Account
+            </button>
+        </div>
     </form>
 </div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+
+@* Optional: Add specific styles if needed *@
+<style>
+    /* Add any specific CSS for the delete personal data page here if necessary */
+    /* Example: Make alert border more prominent */
+    .alert.border-danger {
+        border-width: 2px !important;
+    }
+
+    /* Ensure validation message is visible */
+    .is-invalid + .text-danger,
+    .invalid-feedback { /* Common Bootstrap class for validation messages */
+        display: block !important; /* Ensure span/div is visible */
+    }
+
+</style>

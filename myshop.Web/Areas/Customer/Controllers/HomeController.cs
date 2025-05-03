@@ -66,7 +66,7 @@ namespace myshop.Web.Areas.Customer.Controllers
                  IncludeWord : "Product"
             );
 
-            if (CartObj == null) 
+            if (CartObj == null) //adding the products to the cart if product not found 
             {
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
                 _unitOfWork.Complete();
@@ -74,7 +74,6 @@ namespace myshop.Web.Areas.Customer.Controllers
                     _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value).Count()
                 );
             }
-                
             else
             {
                 if(CartObj.Count < CartObj.Product.CountInStock)

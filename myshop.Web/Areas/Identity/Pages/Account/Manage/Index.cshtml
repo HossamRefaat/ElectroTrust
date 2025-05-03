@@ -5,38 +5,63 @@
     ViewData["ActivePage"] = ManageNavPages.Index;
 }
 
-<h3>@ViewData["Title"]</h3>
-<partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
-        <form id="profile-form" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
-                <label asp-for="Username" class="form-label"></label>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Name" class="form-control" placeholder="Please enter your name." />
-                <label asp-for="Input.Name" class="form-label"></label>
-                <span asp-validation-for="Input.Name" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Address" class="form-control" placeholder="Please enter your Address." />
-                <label asp-for="Input.Address" class="form-label"></label>
-                <span asp-validation-for="Input.Address" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.City" class="form-control" placeholder="Please enter your city." />
-                <label asp-for="Input.City" class="form-label"></label>
-                <span asp-validation-for="Input.City" class="text-danger"></span>
-            </div>
-            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
-        </form>
+@* Incorporate styles similar to login.html if needed, or ensure Bootstrap is linked correctly *@
+<style>
+    .profile-container {
+        max-width: 600px; /* Adjust width as needed */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: auto;  /* Center the container */
+        margin-right: auto; /* Center the container */
+    }
+</style>
+
+<div class="profile-container">
+    <div class="card shadow-sm">
+        <div class="card-body p-4 p-md-5">
+            <h3 class="card-title text-center mb-4 fw-bold">@ViewData["Title"]</h3>
+            <partial name="_StatusMessage" for="StatusMessage" />
+            <form id="profile-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                @* Username (disabled) - styled similarly to login form inputs *@
+                <div class="mb-3">
+                    <label asp-for="Username" class="form-label"></label>
+                    <input asp-for="Username" class="form-control" placeholder="Username (cannot be changed)" disabled />
+                </div>
+
+                @* Phone Number - using standard label and input styling like login.html *@
+                <div class="mb-3">
+                    <label asp-for="Input.PhoneNumber" class="form-label"></label>
+                    <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+
+                @* Name - using standard label and input styling like login.html *@
+                <div class="mb-3">
+                    <label asp-for="Input.Name" class="form-label"></label>
+                    <input asp-for="Input.Name" class="form-control" placeholder="Please enter your name." />
+                    <span asp-validation-for="Input.Name" class="text-danger"></span>
+                </div>
+
+                @* Address - using standard label and input styling like login.html *@
+                <div class="mb-3">
+                    <label asp-for="Input.Address" class="form-label"></label>
+                    <input asp-for="Input.Address" class="form-control" placeholder="Please enter your Address." />
+                    <span asp-validation-for="Input.Address" class="text-danger"></span>
+                </div>
+
+                @* City - using standard label and input styling like login.html *@
+                <div class="mb-3">
+                    <label asp-for="Input.City" class="form-label"></label>
+                    <input asp-for="Input.City" class="form-control" placeholder="Please enter your city." />
+                    <span asp-validation-for="Input.City" class="text-danger"></span>
+                </div>
+
+                @* Save Button - full width primary button like login.html *@
+                <button id="update-profile-button" type="submit" class="w-100 btn btn-primary btn-lg fw-bold mt-4">Save Profile</button>
+            </form>
+        </div>
     </div>
 </div>
 

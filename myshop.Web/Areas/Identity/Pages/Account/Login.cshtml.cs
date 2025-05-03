@@ -127,6 +127,22 @@ namespace myshop.Web.Areas.Identity.Pages.Account
                     _logger.LogWarning("User account locked out.");
                     return RedirectToPage("./Lockout");
                 }
+                if (result.IsNotAllowed)
+                {
+                    // --- This is where you customize the message ---
+                    _logger.LogWarning($"Login denied for {Input.Email} because account is not confirmed.");
+
+                    // Replace the default message with your custom one:
+                    ModelState.AddModelError(string.Empty,
+                        "Your account registration is incomplete. Please check your email inbox (and spam folder) for the confirmation link to activate your account before logging in.");
+
+                    // Optional: You could add logic here to display a "Resend confirmation email" link/button
+                    // For example, set a property on your Model: Model.ShowResendConfirmationLink = true;
+                    // Then, in Login.cshtml, conditionally display the link if this property is true.
+
+                    return Page(); // Return to the login page to display the error
+                                   // --- End of customization ---
+                }
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");

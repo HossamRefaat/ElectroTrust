@@ -3,72 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\views\\shared\\_customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{119E9DCB-3D75-42BB-BC16-18E1D6FBC9B5}|myshop.Entities\\myshop.Entities.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.entities\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{119E9DCB-3D75-42BB-BC16-18E1D6FBC9B5}|myshop.Entities\\myshop.Entities.csproj|solutionrelative:myshop.entities\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\Migrations\\20250412100544_remove stringLength from product description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:myshop.DataAccess\\Migrations\\20250412100544_remove stringLength from product description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|c:\\users\\hossa\\onedrive\\desktop\\electrotrust\\electrotrust\\myshop.web\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DAA85A1-15BF-410D-B4F0-D8DC19D1C934}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,228 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAswHQAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeletePersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwEwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T12:12:36.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderConfirmation.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T11:55:17.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAFQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T11:03:18.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20250412100544_remove stringLength from product description.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\Migrations\\20250412100544_remove stringLength from product description.cs",
-              "RelativeDocumentMoniker": "myshop.DataAccess\\Migrations\\20250412100544_remove stringLength from product description.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\Migrations\\20250412100544_remove stringLength from product description.cs",
-              "RelativeToolTip": "myshop.DataAccess\\Migrations\\20250412100544_remove stringLength from product description.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:05:45.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "myshop.Entities\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\Models\\Product.cs",
-              "RelativeToolTip": "myshop.Entities\\Models\\Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:03:46.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "myshop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwEwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T09:35:21.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Customer.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Views\\Shared\\_Customer.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Views\\Shared\\_Customer.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Views\\Shared\\_Customer.cshtml",
-              "RelativeToolTip": "myshop.Web\\Views\\Shared\\_Customer.cshtml",
-              "ViewState": "AgIAAFgAAAAAAAAAAADwv2EAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T09:30:30.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGsAAADbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T14:33:41.984Z",
+              "WhenOpened": "2025-05-03T18:51:06.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG8AAAAkAAAAAAAAAA==",
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T14:33:50.543Z",
+              "WhenOpened": "2025-05-03T18:12:17.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "myshop.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DeletePersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T14:57:33.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T11:31:31.084Z",
+              "WhenOpened": "2025-05-03T18:01:51.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T08:44:05.622Z",
+              "WhenOpened": "2025-05-03T17:57:05.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Summary.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ViewState": "AgIAAM8AAAAAAAAAAADwv+EAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T11:55:22.321Z",
+              "DocumentIndex": 3,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAwIkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:50:08.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "myshop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T09:34:52.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T17:50:04.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "myshop.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "myshop.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "myshop.Web\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T08:53:28.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "myshop.Web\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "myshop.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-12T08:52:08.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "homePage.css",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\homePage.css",
-              "RelativeDocumentMoniker": "myshop.Web\\wwwroot\\css\\homePage.css",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\homePage.css",
-              "RelativeToolTip": "myshop.Web\\wwwroot\\css\\homePage.css",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-12T08:52:37.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T17:44:01.626Z"
             }
           ]
         },
