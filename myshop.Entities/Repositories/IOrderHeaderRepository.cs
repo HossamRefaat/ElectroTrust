@@ -12,5 +12,7 @@ namespace myshop.Entities.Repositories
         void Update(OrderHeader orderHeader);
 
         void UpdateOrderStatus(int id, string orderStatus, string? PaymentStatus);
+
+        ICollection<OrderHeader> GetOrderHeadersByUseId(string id);
     }
 }

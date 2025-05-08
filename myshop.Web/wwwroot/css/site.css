@@ -1,24 +1,22 @@
+/* In site.css */
+
 html {
-    height: 100%; /* Make sure the root html element can be a height reference */
+    height: 100%;
 }
 
 body {
-    /* Ensure body also takes at least full viewport height */
-    /* You can use Bootstrap's min-vh-100 class OR this CSS */
-    min-height: 100vh;
-    /* Keep the flexbox setup for the sticky footer */
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-/* This rule MUST still be applied to your <main> element or content div */
-main.flex-grow-1 { /* Or use the class .flex-grow-1 directly on your main content element */
-    flex-grow: 1; /* Allows the main content to expand */
+/* --- THIS IS THE RULE TO CHECK/FIX --- */
+/* Change 'main' to '.container' or your specific wrapper if needed */
+main { /* <--- ADJUST THIS SELECTOR based on your _Layout.cshtml */
+    flex-grow: 1; /* Make this element fill the available vertical space */
 }
+/* --- END OF RULE TO CHECK/FIX --- */
 
-/* Optional: Basic footer styling assumption */
 footer {
-    /* background-color: #your-footer-color; */ /* Example */
-    /* color: white; */
-    /* padding: 1rem 0; */
+    flex-shrink: 0; /* Prevent footer from shrinking */
 }

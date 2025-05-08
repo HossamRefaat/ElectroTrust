@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using myshop.DataAccess.Implementation;
 using myshop.Entities.Models;
 using myshop.Entities.Repositories;
+using myshop.Entities.ViewModels;
+using myshop.ViewModels;
+using System.Linq.Expressions;
 using System.Security.Claims;
 using Utilities;
 using X.PagedList.Extensions;
@@ -50,6 +54,61 @@ namespace myshop.Web.Areas.Customer.Controllers
             };
 
             return View(obj);
+        }
+
+        [Authorize]
+        public IActionResult Orders() 
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+            var orderDetails = _unitOfWork.OrderHeader.GetOrderHeadersByUseId(claim.Value);
+            return View(orderDetails);
+        }
+
+        [Authorize]
+        public IActionResult OrderDetails(int id) // Can be synchronous now as repo methods are sync
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId)) { return Unauthorized(); }
+
+            // Define the predicate for filtering
+            Expression<Func<OrderHeader, bool>> predicate = oh => oh.Id == id && oh.ApplicationUserId == userId;
+
+            // Define the Include string for related entities
+            // For OrderDetails and then Product within OrderDetails, use "OrderDetails.Product"
+            // Also include OrderDetails itself if needed directly (often implied by nested include, but explicit doesn't hurt)
+            string includeProperties = "OrderDetails,OrderDetails.Product";
+
+            // Fetch the OrderHeader using the repository
+            var orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(predicate, includeProperties);
+
+            if (orderHeader == null)
+            {
+                // Order not found or doesn't belong to user
+                return NotFound();
+            }
+
+            // --- Mapping to ViewModel (using the simplified ViewModel) ---
+            var viewModel = new OrderDetailViewModel
+            {
+                OrderId = orderHeader.Id,
+                TotalPrice = orderHeader.TotalPrice,
+
+                // Map the items list - check if OrderDetails was loaded
+                Items = orderHeader.OrderDetails?.Select(od => new OrderItemVM
+                {
+                    ProductId = od.ProductId,
+                    // Product might be null if Include didn't work as expected or data issue
+                    ProductName = od.Product?.Name ?? "N/A",
+                    Quantity = od.Count,
+                    PricePerItem = od.Price,
+                    ImageUrl = od.Product?.Img
+                }).ToList() ?? new List<OrderItemVM>() // Ensure Items is never null
+            };
+            // --- End Mapping ---
+
+            return View(viewModel);
         }
 
         [HttpPost]

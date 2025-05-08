@@ -1,0 +1,108 @@
+﻿@* Add the namespace for your OrderHeader model if not already in _ViewImports.cshtml *@
+@using myshop.Entities.Models;
+@model IEnumerable<OrderHeader>
+
+@{
+    ViewData["Title"] = "My Order History";
+}
+
+@* Use container for consistent padding/margins - remove if _Layout already has one for @RenderBody() *@
+<div class="container mt-4 mb-5">
+
+    <h1 class="mb-4 text-center pb-2">@ViewData["Title"]</h1>
+
+    @if (Model == null || !Model.Any())
+    {
+        @* Display a styled message if there are no orders *@
+        <div class="alert alert-info" role="alert">
+            You have not placed any orders yet.
+        </div>
+    }
+    else
+    {
+        @* Use Bootstrap's row/column system for card layout *@
+        <div class="row g-4">
+            @* g-4 adds gutters (spacing) between columns/rows *@
+            @foreach (var order in Model)
+            {
+                @* Define column size for different screen sizes - adjust as needed
+                   Example: 1 card per row on small, 2 on medium, 3 on large *@
+                <div class="col-md-6 col-lg-4">
+                    @* Use Bootstrap card component - h-100 makes cards in row same height *@
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                            @* Display Order ID prominently, maybe date less prominently *@
+                            <span class="fw-bold">Order #@order.Id</span>
+                            <small class="text-muted">@order.OrderDate.ToString("yyyy-MM-dd")</small>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            @* Use flex-column for better footer push *@
+                            <dl class="row mb-3">
+                                @* Use definition list for details *@
+                                <dt class="col-sm-5">Total Price</dt>
+                                <dd class="col-sm-7">@order.TotalPrice.ToString("C")</dd>
+
+                                <dt class="col-sm-5">Shipping Date</dt>
+                                <dd class="col-sm-7">
+                                    @if (order.ShippingDate > order.OrderDate && order.ShippingDate != default(DateTime))
+                                    {
+                                        @order.ShippingDate.ToString("yyyy-MM-dd")
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted fst-italic">Not Shipped Yet</span>
+                                    }
+                                </dd>
+
+                                <dt class="col-sm-5">Tracking</dt>
+                                <dd class="col-sm-7">
+                                    @if (!string.IsNullOrEmpty(order.TrackingNumber))
+                                    {
+                                        @order.TrackingNumber
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">N/A</span>
+                                    }
+                                </dd>
+
+                                <dt class="col-sm-5">Status</dt>
+                                <dd class="col-sm-7">
+                                    @* Use Bootstrap Badges for Status *@
+                                    @{
+                                        string badgeClass = "bg-secondary"; // Default/unknown status
+                                        string statusText = order.OrderStatus ?? "Unknown";
+                                        switch (statusText.ToLower()) // Use ToLower for case-insensitivity
+                                        {
+                                            case "pending": badgeClass = "bg-warning text-dark"; break;
+                                            case "approved": badgeClass = "bg-primary"; break;
+                                            case "processing": badgeClass = "bg-info text-dark"; break;
+                                            case "shipped": badgeClass = "bg-info"; break;
+                                            case "delivered": badgeClass = "bg-success"; break;
+                                            case "cancelled": case "refunded": badgeClass = "bg-danger"; break;
+                                        }
+                                    }
+                                    <span class="badge @badgeClass rounded-pill">@statusText</span>
+                                </dd>
+                            </dl>
+
+                            @* Spacer to help push footer down within card body if content is short *@
+                            <div class="mt-auto"></div>
+                        </div>
+                        <div class="card-footer bg-white text-end border-top-0 pt-0">
+                            @* Card footer for action button, aligned right *@
+                            <a asp-action="OrderDetails" asp-route-id="@order.Id" class="btn btn-sm btn-outline-primary" title="View Details">
+                                <i class="bi bi-search me-1"></i> @* Optional Icon *@
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div> @* End Column *@
+            } @* End Foreach *@
+        </div> @* End Row *@
+    }
+
+</div> @* End Container *@
+
+@* Reminder: Ensure Bootstrap 5 CSS and JS are included in your _Layout.cshtml *@
+@* Optional: Include Bootstrap Icons CSS if you use the icon in the button *@

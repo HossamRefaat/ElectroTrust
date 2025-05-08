@@ -59,5 +59,7 @@ namespace myshop.Entities.Models
 
         [StringLength(20)]
         public string? PhoneNumber { get; set; }
+
+        public ICollection<OrderDetails> OrderDetails { get; set; }
     }
 }

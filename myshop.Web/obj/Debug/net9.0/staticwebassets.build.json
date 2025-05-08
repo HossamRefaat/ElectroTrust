@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ElyXPzD4gjn3WSw+G1KN9gRy0wKJIY6Dc/H10uUjZ9w=",
+  "Hash": "QaioaCSJgvxrGkL9B7uG8iI/GEWooWeLMyX8R29vl9g=",
   "Source": "myshop.Web",
   "BasePath": "_content/myshop.Web",
   "Mode": "Default",
@@ -4091,12 +4091,12 @@
       "OriginalItemSpec": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-rn4ammvbvf.gz",
+      "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-2razyucx4o.gz",
       "SourceId": "myshop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/myshop.Web",
-      "RelativePath": "css/site#[.{fingerprint=rn4ammvbvf}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=2razyucx4o}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4105,8 +4105,8 @@
       "RelatedAsset": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "194oh9s08w",
-      "Integrity": "e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4=",
+      "Fingerprint": "c31e0td1ay",
+      "Integrity": "+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\site.css"
@@ -6226,8 +6226,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rn4ammvbvf",
-      "Integrity": "F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y=",
+      "Fingerprint": "2razyucx4o",
+      "Integrity": "0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -6464,6 +6464,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\47351242-2a72-4b55-bca0-687f207972cc.jpg"
     },
     {
+      "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\49f6381f-61b4-43ab-84dc-f04a8d226816.jpg",
+      "SourceId": "myshop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\",
+      "BasePath": "_content/myshop.Web",
+      "RelativePath": "images/Products/49f6381f-61b4-43ab-84dc-f04a8d226816#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iswfm5s3cb",
+      "Integrity": "PiITZjv/4s+lc2vcS6VTDshETxH3sDlGLTljZem6pyY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Products\\49f6381f-61b4-43ab-84dc-f04a8d226816.jpg"
+    },
+    {
       "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\4b6cc461-88e1-4631-b308-dc7c7863d9c6.jpg",
       "SourceId": "myshop.Web",
       "SourceType": "Discovered",
@@ -6632,6 +6653,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\84ce82b2-b586-476b-9f32-c898d131f12f.jpg"
     },
     {
+      "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\8df2f666-427d-45ca-b863-5031c5d5498d.jpg",
+      "SourceId": "myshop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\",
+      "BasePath": "_content/myshop.Web",
+      "RelativePath": "images/Products/8df2f666-427d-45ca-b863-5031c5d5498d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4x3spalznw",
+      "Integrity": "KMz66GLsdt3LXL/BGN1dygYGPYPZP9s62+6EHwrIGCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Products\\8df2f666-427d-45ca-b863-5031c5d5498d.jpg"
+    },
+    {
       "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\8f21e6a6-c61b-4341-ad9c-7372792e80f9.jpg",
       "SourceId": "myshop.Web",
       "SourceType": "Discovered",
@@ -6798,6 +6840,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Products\\d584f57e-daf6-4907-93f5-cf850927069a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\dde88eee-da90-448b-904d-e18d0bf8bc42.jpg",
+      "SourceId": "myshop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\",
+      "BasePath": "_content/myshop.Web",
+      "RelativePath": "images/Products/dde88eee-da90-448b-904d-e18d0bf8bc42#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bxsd7b3n3k",
+      "Integrity": "rzbqrlV8PI9jAAUzQI7/llLMitfRrkEYdoHpkCzMcVI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Products\\dde88eee-da90-448b-904d-e18d0bf8bc42.jpg"
     },
     {
       "Identity": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\e203c052-1afd-48ee-9f77-d27a730bb400.jpg",
@@ -18804,6 +18867,167 @@
       ]
     },
     {
+      "Route": "css/site.2razyucx4o.css",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-2razyucx4o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002898550725"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "344"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:38:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2razyucx4o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.2razyucx4o.css",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:38:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2razyucx4o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.2razyucx4o.css.gz",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-2razyucx4o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:38:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2razyucx4o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\hossa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\css\\site.css",
       "Selectors": [],
@@ -18842,12 +19066,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-rn4ammvbvf.gz",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-2razyucx4o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002293577982"
+          "Quality": "0.002898550725"
         }
       ],
       "ResponseHeaders": [
@@ -18857,15 +19081,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "435"
+          "Value": "344"
         },
         {
           "Name": "ETag",
-          "Value": "\"e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4=\""
+          "Value": "\"+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 16:59:05 GMT"
+          "Value": "Sun, 04 May 2025 03:38:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18885,13 +19109,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y=\""
+          "Value": "W/\"0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y="
+          "Value": "sha256-0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y="
         }
       ]
     },
@@ -18906,7 +19130,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "777"
+          "Value": "517"
         },
         {
           "Name": "Content-Type",
@@ -18914,11 +19138,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y=\""
+          "Value": "\"0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 16:59:05 GMT"
+          "Value": "Sun, 04 May 2025 03:38:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18928,13 +19152,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y="
+          "Value": "sha256-0kTBgIbojS6e2Khm+xdrabB7Oi2enoowUELRylZ0P4Y="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-rn4ammvbvf.gz",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-2razyucx4o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18943,7 +19167,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "435"
+          "Value": "344"
         },
         {
           "Name": "Content-Type",
@@ -18951,11 +19175,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4=\""
+          "Value": "\"+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 16:59:05 GMT"
+          "Value": "Sun, 04 May 2025 03:38:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18973,168 +19197,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.rn4ammvbvf.css",
-      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-rn4ammvbvf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002293577982"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "435"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 16:59:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rn4ammvbvf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.rn4ammvbvf.css",
-      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "777"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 16:59:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rn4ammvbvf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-F9TfDzum1FJkVQSLbx7P7pqcIVbksD5R5uvXbh+bw4Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.rn4ammvbvf.css.gz",
-      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\Debug\\net9.0\\compressed\\lp2wx480du-rn4ammvbvf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "435"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 16:59:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rn4ammvbvf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-e5+9lcKpzpPpBzk/b1JhcKuaigEeMJtGhxzdQXCsRP4="
+          "Value": "sha256-+F590nkxJXz0nMkRZQg8TJ3Zo6AQq5Rsw1aijSEN+cs="
         }
       ]
     },
@@ -29689,6 +29752,88 @@
       ]
     },
     {
+      "Route": "images/Products/49f6381f-61b4-43ab-84dc-f04a8d226816.iswfm5s3cb.jpg",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\49f6381f-61b4-43ab-84dc-f04a8d226816.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiITZjv/4s+lc2vcS6VTDshETxH3sDlGLTljZem6pyY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 23:44:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iswfm5s3cb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/49f6381f-61b4-43ab-84dc-f04a8d226816.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PiITZjv/4s+lc2vcS6VTDshETxH3sDlGLTljZem6pyY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/49f6381f-61b4-43ab-84dc-f04a8d226816.jpg",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\49f6381f-61b4-43ab-84dc-f04a8d226816.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiITZjv/4s+lc2vcS6VTDshETxH3sDlGLTljZem6pyY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 23:44:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PiITZjv/4s+lc2vcS6VTDshETxH3sDlGLTljZem6pyY="
+        }
+      ]
+    },
+    {
       "Route": "images/Products/4b6cc461-88e1-4631-b308-dc7c7863d9c6.3kzixbz24z.jpg",
       "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\4b6cc461-88e1-4631-b308-dc7c7863d9c6.jpg",
       "Selectors": [],
@@ -30345,6 +30490,88 @@
       ]
     },
     {
+      "Route": "images/Products/8df2f666-427d-45ca-b863-5031c5d5498d.4x3spalznw.jpg",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\8df2f666-427d-45ca-b863-5031c5d5498d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMz66GLsdt3LXL/BGN1dygYGPYPZP9s62+6EHwrIGCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 23:42:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4x3spalznw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/8df2f666-427d-45ca-b863-5031c5d5498d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMz66GLsdt3LXL/BGN1dygYGPYPZP9s62+6EHwrIGCM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/8df2f666-427d-45ca-b863-5031c5d5498d.jpg",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\8df2f666-427d-45ca-b863-5031c5d5498d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMz66GLsdt3LXL/BGN1dygYGPYPZP9s62+6EHwrIGCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 23:42:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMz66GLsdt3LXL/BGN1dygYGPYPZP9s62+6EHwrIGCM="
+        }
+      ]
+    },
+    {
       "Route": "images/Products/8f21e6a6-c61b-4341-ad9c-7372792e80f9.jpg",
       "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\8f21e6a6-c61b-4341-ad9c-7372792e80f9.jpg",
       "Selectors": [],
@@ -30997,6 +31224,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-nH918p7bC9gvnevya36cq4Fsx7PcfC5nhz+fFjYTI3o="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/dde88eee-da90-448b-904d-e18d0bf8bc42.bxsd7b3n3k.jpg",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\dde88eee-da90-448b-904d-e18d0bf8bc42.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rzbqrlV8PI9jAAUzQI7/llLMitfRrkEYdoHpkCzMcVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:48:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bxsd7b3n3k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/dde88eee-da90-448b-904d-e18d0bf8bc42.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rzbqrlV8PI9jAAUzQI7/llLMitfRrkEYdoHpkCzMcVI="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/dde88eee-da90-448b-904d-e18d0bf8bc42.jpg",
+      "AssetFile": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\wwwroot\\images\\Products\\dde88eee-da90-448b-904d-e18d0bf8bc42.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rzbqrlV8PI9jAAUzQI7/llLMitfRrkEYdoHpkCzMcVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:48:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rzbqrlV8PI9jAAUzQI7/llLMitfRrkEYdoHpkCzMcVI="
         }
       ]
     },

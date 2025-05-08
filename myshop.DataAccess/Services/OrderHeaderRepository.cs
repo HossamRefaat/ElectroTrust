@@ -1,4 +1,5 @@
-﻿using myshop.Entities.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using myshop.Entities.Models;
 using myshop.Entities.Repositories;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,16 @@ namespace myshop.DataAccess.Implementation
         public OrderHeaderRepository(ApplicationDbContext context) : base(context)
         {
             _context = context;
+        }
+
+        public ICollection<OrderHeader?> GetOrderHeadersByUseId(string id)
+        {
+            var orderHeaders = _context.OrderHeaders
+                .Include(x => x.OrderDetails)
+                .Where(x => x.ApplicationUserId == id)
+                .ToList();
+
+            return orderHeaders;
         }
 
         public void Update(OrderHeader orderHeader)
