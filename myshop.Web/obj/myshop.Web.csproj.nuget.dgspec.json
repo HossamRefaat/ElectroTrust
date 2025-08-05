@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\myshop.Web.csproj": {}
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Web\\myshop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj": {
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj",
         "projectName": "myshop.DataAccess",
-        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj",
+        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj",
         "packagesPath": "C:\\Users\\hossa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
-                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj"
+              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
+                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -89,18 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj",
         "projectName": "myshop.Entities",
-        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj",
+        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj",
         "packagesPath": "C:\\Users\\hossa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\obj\\",
+        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,7 +133,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -168,18 +168,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\myshop.Web.csproj": {
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Web\\myshop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
         "projectName": "myshop.Web",
-        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
+        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
         "packagesPath": "C:\\Users\\hossa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\obj\\",
+        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -200,14 +200,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj"
+              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.DataAccess\\myshop.DataAccess.csproj"
               },
-              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
-                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj"
+              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj": {
+                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Entities\\myshop.Entities.csproj"
               },
-              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj"
+              "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -222,7 +222,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -302,18 +302,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\hossa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -346,7 +346,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -373,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

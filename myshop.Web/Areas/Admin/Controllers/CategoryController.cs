@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using myshop.DataAccess;
 using myshop.Entities.Models;
 using myshop.Entities.Repositories;
+using Utilities;
 
 namespace myshop.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.AdminRole)]
     public class CategoryController : Controller
     {
         private IUnitOfWork _unitOfWork;

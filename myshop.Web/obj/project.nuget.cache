@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o4E0ztB4cMs=",
+  "dgSpecHash": "mWaCMqKOk9g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
+  "projectFilePath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\myshop.Web\\myshop.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hossa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hossa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

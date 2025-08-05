@@ -113,15 +113,15 @@ namespace myshop.Web.Areas.Customer.Controllers
                 _unitOfWork.Complete();
             }
 
-            var domain = "http://elctrotrust.runasp.net";
+            var domain = "http://electrotrust.runasp.net";
             var localDomain = "https://localhost:44374";
             var options = new SessionCreateOptions
             {
                 LineItems = new List<SessionLineItemOptions>(),
 
                 Mode = "payment",
-                SuccessUrl = localDomain + $"/customer/cart/OrderConfirmation?id={shoppingCartVM.OrderHeader.Id}",
-                CancelUrl = localDomain + "/customer/cart/index"
+                SuccessUrl = domain + $"/customer/cart/OrderConfirmation?id={shoppingCartVM.OrderHeader.Id}",
+                CancelUrl = domain + "/customer/cart/index"
             };
 
 

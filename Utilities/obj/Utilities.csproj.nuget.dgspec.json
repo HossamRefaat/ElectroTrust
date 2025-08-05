@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj": {}
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\hossa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\ElectroTrust\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\ElectroTrust\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -71,7 +71,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }
